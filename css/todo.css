@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  padding: 91px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-style: solid;
+}
+
+
+
+.section
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+input[type="text"]{
+    height: 30px;
+}
+input[type="date"]{
+  height: 30px;
+}
+input[type="submit"]{
+  height: 30px;
+  margin-top: 20px;
+  
+}
+.main container{
+  display:flex ;
+  flex-direction: column;
+  justify-content: space-between;
+}
