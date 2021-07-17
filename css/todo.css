@@ -11,11 +11,11 @@ header {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-style: solid;
+  
 }
 
 
-
-.section
+.section2
 {
   position: fixed;
   bottom: 0;
@@ -23,19 +23,20 @@ header {
   right: 0;
   width: 100%;
 }
-input[type="text"]{
+
+
+input{
     height: 30px;
+    border: none;
 }
-input[type="date"]{
-  height: 30px;
-}
+
 input[type="submit"]{
   height: 30px;
   margin-top: 20px;
   
 }
-.main container{
+/* .main container{
   display:flex ;
   flex-direction: column;
   justify-content: space-between;
-}
+} */
