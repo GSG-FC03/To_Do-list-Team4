@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/todo.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Titillium+Web"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/todo.css" />
     <title>ToDo List</title>
   </head>
   <body>
@@ -16,21 +22,22 @@
         <i onclick="dark ()"class="fas fa-adjust"></i>
       </div>
       </header>
- <main>
-        <section class="section">
+ 
+  <main class="container">
+  <section class="section1">
+    <ul id="list">
+
+    </ul>
+  </section>
+  <section class="section2">
+    <form id="form">
+      <i class="fa fa-plus-circle"></i>
+      <input type="text" id="input" placeholder="Add a to-do" />
+      <input type="submit" value="Submit" id="input" />
+    </form>
+  </section>
        
-            <form>
-             <label>
-               <i class="fal fa-plus"></i>
-              <input type="text" class="input" placeholder="Add a to-do" /> </label>
-              <label>
-              <input type="date" id="myDate" value="yyyy-m-d" />
-            </label>
-            <label>
-              <input type="submit" value="Submit">
-            </label>
-            </form>
-        </section>
+           
     
     </main>
     <script src="../javascript/main.js">

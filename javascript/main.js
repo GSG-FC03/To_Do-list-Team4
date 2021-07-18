@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Select the Elements
 // const dateElement = document.getElementById("date");
 const list = document.getElementById("list");
@@ -58,7 +57,6 @@ function logSubmit(event) {
 
 const form = document.getElementById('form');
 form.addEventListener('submit', logSubmit);
-=======
 let date ={weekday:"long" , month:"short" ,day:"numeric"} 
 const d = new Date();
 const day=document.getElementsByClassName("day")[0];
@@ -72,4 +70,3 @@ function dark (){
 }
 
 
->>>>>>> 268fb6ca0ec3de8e18be7dcbdbdb8fa2afc2b4eb
