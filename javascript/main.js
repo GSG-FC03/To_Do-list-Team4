@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Select the Elements
 // const dateElement = document.getElementById("date");
 const list = document.getElementById("list");
@@ -57,3 +58,18 @@ function logSubmit(event) {
 
 const form = document.getElementById('form');
 form.addEventListener('submit', logSubmit);
+=======
+let date ={weekday:"long" , month:"short" ,day:"numeric"} 
+const d = new Date();
+const day=document.getElementsByClassName("day")[0];
+day.textContent =d.toLocaleDateString("English",date)
+
+const img = document.getElementsByClassName("image")[0];
+const darli = document.body;
+function dark (){
+   darli.classList.toggle("dark-mode"); 
+   img.classList.toggle("sunset");
+}
+
+
+>>>>>>> 268fb6ca0ec3de8e18be7dcbdbdb8fa2afc2b4eb
