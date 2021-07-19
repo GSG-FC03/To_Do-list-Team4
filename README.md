@@ -22,6 +22,12 @@ HTML : To bulid the strcture of the pages
 CSS : To style the pages
 JavaScript : To create interaction between the page and the user
 LocalStorage : to store the data
+
+## User Stories:
+- As a user , I can add my todo to the list and store it in the localstorage
+- As a user,  I can remove any todo from the list
+- As a user , I can edit my todo
+- As a user , I can still have the list even I close the browser. 
 ## The purpose of our project:
  The  main purpose of our appliction is organize yourself and your work. It will make us more organized and help us to complete our tasks by regularly alarming us.By balancing the work and other targets, the to-do lists help us decide and dedicate our time precisely.
 
