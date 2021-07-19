@@ -1,24 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.section1{
-  padding: 10px;
-  margin: 150px;
+
+.section1 {
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px 10px;
 }
+
 
 
 .item{
   width:100%;
-  /* height: 45px; */
-  /* min-height: 45px; */
-  /* position: relative; */
-  border-bottom: 1px solid rgba(0,0,0,0.1);
- 
-  
+  height: 45px;
+  border-bottom: 1px solid rgb(125,98,159,.36);
+  padding: 12px;
 }
+  
+
 .item i.co{
   position: absolute;
   font-size: 25px;
@@ -26,29 +28,19 @@
   left:15px;
   top:10px;
 }
-/* .item i.co:hover{
-  cursor: pointer;
-} */
-/* .fa-check-circle{
-  color:#6eb200;
-} */
-
-
-.item p.text{
-  position: absolute;
-  
-  font-size: 20px;
-  left:50px;
-  top:5px;
-  background-color: #FFF;
-  max-width:285px;
+p.text{
+  top: -24px;
+  left: 35px;
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+  position: relative;
 }
 .lineThrough{
   text-decoration: line-through;
   color : #ccc;
 }
 .item i.de{
-  position: absolute;
+
   font-size: 25px;
   right:15px;
   top:10px;
@@ -64,7 +56,7 @@ body {
 }
 .day {
   font-size:25px;
-  padding: 10%;
+  padding: 10px;
   padding-top: 159px;
   color: #f9e6e6;
 }
@@ -81,10 +73,8 @@ body {
 }
 .image {
   width: 100%;
-  height: 550px;
   font-weight: bold;
   font-size:25px;
-  padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
   background-image: url(../assert/imge/sunrise.jpg);
@@ -93,10 +83,8 @@ body {
 }
 .sunset {
   width: 100%;
-  height: 550px;
   font-weight: bold;
   font-size:25px;
-  padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
   background-image: url(../assert/imge/sunset.jpg);
@@ -117,28 +105,44 @@ footer {
   width: 100%;
   
 }
+#input{
 
+  height: 36px;
+  border: none;
+  width:48%;
+  padding-left: 28px;
+  background-color: #b890bf73;
+  color: #00001a;
 
-input{
-    height: 40px;
-    border: none;
+}
+::placeholder{
+  color: #00001a;
 }
 
-input[type="submit"]{
-  height: 40px;
-  margin-top: 20px;
-  right:20px;
-  
-}
-
-
-.container{
-  display:flex ;
-  flex-direction: column;
-  justify-content: space-between;
+.dark{
+  padding: 0px;
+  margin: 0px
 }
 
 .lineThrough{
   text-decoration: line-through;
 
+}
+.fa-trash:before{
+color:olive;
+position: relative;
+left: 287px;
+top: -47px;
+}
+li{
+  list-style-type: none;
+  padding: 20px;
+}
+
+.fa-plus:before {
+  color: #00001a;
+  content: "\f067";
+  position: absolute;
+  left: 15px;
+  top: 7px;
 }
