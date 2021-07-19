@@ -29,8 +29,8 @@
   top:10px;
 }
 p.text{
-  top: -24px;
-  left: 35px;
+  top: 4px;
+  left: 27px;
   font-size: 17px;
   font-family: 'Noto Sans KR', sans-serif;
   position: relative;
@@ -105,7 +105,7 @@ footer {
   width: 100%;
   
 }
-#input{
+input{
 
   height: 36px;
   border: none;
@@ -132,7 +132,7 @@ footer {
 color:olive;
 position: relative;
 left: 287px;
-top: -47px;
+top: -13px;
 }
 li{
   list-style-type: none;
@@ -145,4 +145,14 @@ li{
   position: absolute;
   left: 15px;
   top: 7px;
+}
+fal {
+  font-weight: 300;
+  position: absolute;
+}
+.fa-circle:before {
+  content: "\f111";
+  position: relative;
+  top: -18px;
+  left: -24px;
 }
