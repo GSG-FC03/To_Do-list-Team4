@@ -13,15 +13,16 @@ Hello and welcome to our project.
 
 
 ## Links
-(https://www.pinterest.com/pin/623678248399787671/visual-search/?x=16&y=12&w=530&h=397&cropSource=6)
-(https://www.pinterest.com/pin/546624473527976385/)
+- [Demoo]
+- [Design](https://www.pinterest.com/pin/623678248399787671/visual-search/?x=16&y=12&w=530&h=397&cropSource=6)
+
 
 ## The technologies that we used:
 
-HTML : To bulid the strcture of the pages 
-CSS : To style the pages
-JavaScript : To create interaction between the page and the user
-LocalStorage : to store the data
+- HTML : To bulid the strcture of the pages 
+- CSS : To style the pages
+- JavaScript : To create interaction between the page and the user
+- LocalStorage : to store the data
 
 ## User Stories:
 - As a user , I can add my todo to the list and store it in the localstorage
